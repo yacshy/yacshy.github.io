@@ -4,38 +4,31 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import Article from "./views/article.tsx";
+import About from "./views/about.tsx";
+
 const router = createBrowserRouter([
   {
+    id: "app",
     path: "/",
     element: <App />,
     children: [
       {
-        path: "/login",
-        element: (
-          <div
-            style={{
-              color: "red",
-            }}
-          >
-            登录
-          </div>
-        ),
+        id: "about",
+        path: "/about",
+        element: <About />,
       },
       {
+        id: "article",
         path: "/article",
-        element: <div>文章</div>,
+        element: <Article />,
       },
     ],
-  },
-  {
-    path: "*",
-    element: <h1>样都无</h1>,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
-    {/* <App /> */}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
