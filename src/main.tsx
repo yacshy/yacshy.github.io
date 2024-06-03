@@ -10,7 +10,6 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        // http://localhost:3000/login
         path: "/login",
         element: (
           <div
@@ -23,11 +22,14 @@ const router = createBrowserRouter([
         ),
       },
       {
-        // // http://localhost:3000/article
         path: "/article",
         element: <div>文章</div>,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <h1>样都无</h1>,
   },
 ]);
 
