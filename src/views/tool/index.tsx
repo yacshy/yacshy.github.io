@@ -1,3 +1,3 @@
 export default function Tool() {
-  return <h1>tool</h1>;
+    return <h1>tool</h1>
 }

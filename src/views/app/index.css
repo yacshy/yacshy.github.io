@@ -1,8 +1,8 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background: url("@/assets/bg/texture.png") repeat;
-  background-color: #131124;
+  background: url("@/assets/bg/dark-denim.png") repeat;
+  background-color: #1f2040;
 }
 
 .container .navbar {
