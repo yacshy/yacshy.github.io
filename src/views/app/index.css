@@ -1,7 +1,7 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background: url("@/assets/bg/texture.png") repeat;
+  background: url("@/assets/bg/dark-denim.png") repeat;
   background-color: #1f2040;
 }
 
