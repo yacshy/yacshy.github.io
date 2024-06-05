@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router'
-import './index.scss'
+import scss from './index.module.scss'
 
 export default function App() {
     return (
-        <main className='container'>
+        <main className={scss.container}>
             <Outlet />
         </main>
     )
