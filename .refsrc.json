@@ -1,0 +1,18 @@
+{
+  "title": "quick reference",
+  "description": "{{description}}. Sharing Quick Reference Cheat Sheets for Developers",
+  "keywords": "reference-cli,reference,refs-cli,refs,cli",
+  "data-info": "👆👆need your participation",
+  "search": {
+    "label": "搜索",
+    "placeholder": "请输入搜索内容",
+    "cancel": "取消"
+  },
+  "editor": {
+    "label": "编辑",
+    "disabled": true
+  },
+  "github": {
+    "url": "https://github.com/yacshy/yacshy.github.io"
+  }
+}

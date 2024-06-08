@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Quick Reference
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 个人作品
 
-Currently, two official plugins are available:
+[pptml](https://yacshy.github.io/pptml/)<!--rehype:style=background: rgb(103 214 237);&class=tag&data-lang=vue2-->
+[netease music](https://gitee.com/yacshy/imitate-netease-music)<!--rehype:style=background: rgb(103 214 237);&class=tag&data-lang=vue3-->
+[gaga notebook](https://gitee.com/yacshy/gaga-notebook)<!--rehype:style=background: rgb(103 214 237);&class=tag&data-lang=taro-->
+<!--rehype:class=home-card-->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 快速文档
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[nodejs](./docs/nodejs.md)<!--rehype:style=background: rgb(0 153 0);-->
+[nestjs](./docs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);-->
+[vue 3](./docs/vue.md)<!--rehype:style=background: rgb(64 184 131);-->
+<!--rehype:class=home-card-->
