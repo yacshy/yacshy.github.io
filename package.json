@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "private blog",
   "main": "index.js",
-  "devDependencies": {},
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "save": "",
-    "watch": "npx quickref-cli --i reference --o docs --watch",
-    "build": "npx quickref-cli --i reference --o docs"
+    "watch": "quickref-cli --i refs --o docs --watch",
+    "pub": "node ./index.js"
   },
   "keywords": [
     "blog",
@@ -21,5 +20,8 @@
     "learn"
   ],
   "author": "https://github.com/yacshy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
 }

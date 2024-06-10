@@ -82,11 +82,11 @@ function stressCurrentActiveElem() {
     const elem = document.querySelector(`a[href="${href}"]`)
     if (elem) {
         const data = Array.from(searchMenu.children)
-		const index = data.indexOf(elem)
+        const index = data.indexOf(elem)
         activeIndex = index
-		data.forEach((item) => item.classList.remove('active'))
-		data[index].classList.add('active')
-		searchSectionsResult(index)
+        data.forEach((item) => item.classList.remove('active'))
+        data[index].classList.add('active')
+        searchSectionsResult(index)
     }
 }
 
