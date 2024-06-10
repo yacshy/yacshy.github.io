@@ -9,7 +9,7 @@
 
 ## 快速文档
 
-[nodejs](./docs/nodejs.md)<!--rehype:style=background: rgb(0 153 0);-->
-[nestjs](./docs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);-->
-[vue 3](./docs/vue.md)<!--rehype:style=background: rgb(64 184 131);-->
+[nodejs](./refs/nodejs.md)<!--rehype:style=background: rgb(0 153 0);-->
+[nestjs](./refs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);-->
+[vue 3](./refs/vue.md)<!--rehype:style=background: rgb(64 184 131);-->
 <!--rehype:class=home-card-->

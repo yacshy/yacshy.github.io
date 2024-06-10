@@ -2,13 +2,14 @@
   "name": "yacshy.github.io",
   "version": "1.0.0",
   "description": "private blog",
-  "main": "dist/index.html",
-  "directories": {
-    "doc": "docs"
-  },
+  "main": "index.js",
   "devDependencies": {},
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "save": "",
+    "watch": "npx quickref-cli --i reference --o docs --watch",
+    "build": "npx quickref-cli --i reference --o docs"
   },
   "keywords": [
     "blog",
