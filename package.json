@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "save": "",
-    "watch": "quickref-cli --i refs --o docs --watch",
+    "watch": "quickref-cli -i refs -o docs --watch",
     "pub": "node ./index.js"
   },
   "keywords": [
