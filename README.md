@@ -16,12 +16,14 @@
 [react](./refs/react.md)<!--rehype:style=background: rgb(12 200 176);-->
 [webpack](./refs/webpack.md)<!--rehype:style=background: rgb(116 123 255);-->
 [wxt](./refs/wxt.md)<!--rehype:style=background: rgb(116 123 255);-->
+[浏览器插件文档](https://open.chrome.360.cn/extension_dev/overview.html)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
 <!--rehype:class=home-card-->
 
 ## 快速工具
 
 [文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);&class=tag&data-lang=通用-->
 [iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
+[取色器](https://photokit.com/colors/eyedropper/?lang=zh)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
 <!--rehype:class=home-card-->
 
 ## 奇技淫巧
