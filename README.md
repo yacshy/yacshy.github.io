@@ -12,11 +12,11 @@
 [nodejs](./refs/nodejs.md)<!--rehype:style=background: rgb(0 153 0);-->
 [nestjs](./refs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);-->
 [vue 3](./refs/vue.md)<!--rehype:style=background: rgb(64 184 131);-->
-[vite](./refs/vite.md)<!--rehype:style=background: rgb(116 123 255);-->
+[vite](./refs/vite.md)<!--rehype:style=background: rgb(64 120 164);-->
 [react](./refs/react.md)<!--rehype:style=background: rgb(12 200 176);-->
-[webpack](./refs/webpack.md)<!--rehype:style=background: rgb(116 123 255);-->
-[wxt](./refs/wxt.md)<!--rehype:style=background: rgb(116 123 255);-->
-[浏览器插件文档](https://open.chrome.360.cn/extension_dev/overview.html)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
+[webpack](./refs/webpack.md)<!--rehype:style=background: rgb(117 175 204);-->
+[wxt](./refs/wxt.md)<!--rehype:style=background: rgb(83 188 74);-->
+[浏览器插件](https://open.chrome.360.cn/extension_dev/overview.html)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
 <!--rehype:class=home-card-->
 
 ## 快速工具
