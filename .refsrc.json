@@ -14,5 +14,12 @@
   },
   "github": {
     "url": "https://github.com/yacshy/yacshy.github.io"
+  },
+  "inputDir": "./refs",
+  "outputDir": "./docs",
+  "server": {
+    "port": 8080,
+    "root": "./docs",
+    "file": "index.html"
   }
 }

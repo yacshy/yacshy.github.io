@@ -12,7 +12,7 @@ const run = async () => {
     const gitCommitMessage = argvs['m']
 
     try {
-        await execSync('quickref-cli build --i refs --o docs', {
+        await execSync('quickref-cli -b', {
             stdio: 'inherit',
         })
 
