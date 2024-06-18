@@ -237,7 +237,7 @@ table th {
 }
 table tr th:last-child,
 table tr td:last-child {
-  text-align: right;
+  text-align: left;
 }
 
 table thead th {

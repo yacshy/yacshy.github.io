@@ -2,9 +2,10 @@
 
 ## 个人作品
 
-[pptml](https://yacshy.github.io/pptml/)<!--rehype:style=background: rgb(103 214 237);&class=tag&data-lang=vue2-->
-[netease music](https://gitee.com/yacshy/imitate-netease-music)<!--rehype:style=background: rgb(103 214 237);&class=tag&data-lang=vue3-->
-[gaga notebook](https://gitee.com/yacshy/gaga-notebook)<!--rehype:style=background: rgb(103 214 237);&class=tag&data-lang=taro-->
+[pptml](https://yacshy.github.io/pptml/)<!--rehype:style=background: rgb(10 54 137);&class=tag&data-lang=vue2-->
+[netease music](https://gitee.com/yacshy/imitate-netease-music)<!--rehype:style=background: rgb(10 54 137);&class=tag&data-lang=vue3-->
+[gaga notebook](https://gitee.com/yacshy/gaga-notebook)<!--rehype:style=background: rgb(10 54 137);&class=tag&data-lang=taro-->
+[quickref-cli](https://gitee.com/yacshy/quickref-cli)<!--rehype:style=background: rgb(10 54 137);&class=tag&data-lang=ts-->
 <!--rehype:class=home-card-->
 
 ## 快速文档
@@ -16,7 +17,7 @@
 [react](./refs/react.md)<!--rehype:style=background: rgb(12 200 176);-->
 [webpack](./refs/webpack.md)<!--rehype:style=background: rgb(117 175 204);-->
 [wxt](./refs/wxt.md)<!--rehype:style=background: rgb(83 188 74);-->
-[浏览器插件](https://open.chrome.360.cn/extension_dev/overview.html)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
+[midwayjs](./refs/midwayjs.md)<!--rehype:style=background: rgb(146 185 255);-->
 <!--rehype:class=home-card-->
 
 ## 快速工具
@@ -25,5 +26,3 @@
 [iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
 [取色器](https://photokit.com/colors/eyedropper/?lang=zh)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
 <!--rehype:class=home-card-->
-
-## 奇技淫巧
