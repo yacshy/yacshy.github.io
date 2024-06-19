@@ -1,5 +1,8 @@
 # Quick Reference
 
+他山之石，可以攻玉
+<!--rehype:style=text-align: center; font-family: ;-->
+
 ## 个人作品
 
 [pptml](https://yacshy.github.io/pptml/)<!--rehype:style=background: rgb(10 54 137);&class=tag&data-lang=vue2-->
@@ -22,7 +25,12 @@
 
 ## 快速工具
 
-[文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);&class=tag&data-lang=通用-->
-[iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
-[取色器](https://photokit.com/colors/eyedropper/?lang=zh)<!--rehype:style=background: rgb(196 20 143);&class=tag&data-lang=设计-->
+[github520](https://raw.hellogithub.com/hosts)<!--rehype:style=background: rgb(119 168 196);-->
+[文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);-->
+[iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(111 121 159);-->
+[颜色吸管](https://photokit.com/colors/eyedropper/?lang=zh)<!--rehype:style=background: rgb(55 22 127);-->
+[颜色计算器](https://photokit.com/colors/color-calculator/?lang=zh)<!--rehype:style=background: rgb(0 123 255);-->
+[有道翻译](https://fanyi.youdao.com)<!--rehype:style=background: rgb(252 1 26);-->
+[配色网站](https://flatuicolors.com/)<!--rehype:style=background:rgb(37 204 247);-->
+[中国色](https://www.zhongguose.com/)<!--rehype:style=background:rgb(192 72 81);-->
 <!--rehype:class=home-card-->

@@ -25,15 +25,7 @@ npx webpack init
 ```
 
 [若用ts配置webpack（*webpack.config.ts*）还需额外安装依赖，和做一些特殊配置](https://www.webpackjs.com/configuration/configuration-languages/#typescript)
-
-## 基础配置
-
-### 导出配置项
-
-* 静态单个
-
-```js
-module.exports  &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
+&#x3C;!--rehype:className &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta description="# webpack
 
@@ -61,7 +53,7 @@ module.exports  &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
 <p><a href="https://www.webpackjs.com/concepts/">中文官网地址</a></p>
 </div></header><div class="menu-tocs"><div class="menu-btn"><svg aria-hidden="true" fill="currentColor" height="1em" width="1em" viewBox="0 0 16 16" version="1.1" data-view-component="true">
   <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
-</svg></div><div class="menu-modal"><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#前置">前置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#启动配置">启动配置</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#install">install</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#packagejson">package.json</a><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#基础配置">基础配置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置项">导出配置项</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#配置参数表">配置参数表</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#context">context</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#output">output</a></div></div><div class="h1wrap-body"><div class="wrap h2body-exist"><div class="wrap-header h2wrap"><h2 id="前置"><a aria-hidden="true" tabindex="-1" href="#前置"><span class="icon icon-link"></span></a>前置</h2><div class="wrap-body">
+</svg></div><div class="menu-modal"><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#前置">前置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#启动配置">启动配置</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#install">install</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#packagejson">package.json</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-静动态多个310起支持">导出配置-静/动态多个(3.1.0起支持)</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-静态单个">导出配置-静态单个</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-动态单个">导出配置-动态单个</a><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#配置">配置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#配置项注解">配置项注解</a></div></div><div class="h1wrap-body"><div class="wrap h2body-exist"><div class="wrap-header h2wrap"><h2 id="前置"><a aria-hidden="true" tabindex="-1" href="#前置"><span class="icon icon-link"></span></a>前置</h2><div class="wrap-body">
 </div></div><div class="h2wrap-body"><div class="wrap h3body-exist"><div class="wrap-header h3wrap"><h3 id="启动配置"><a aria-hidden="true" tabindex="-1" href="#启动配置"><span class="icon icon-link"></span></a>启动配置</h3><div class="wrap-body">
 <h4 id="install"><a aria-hidden="true" tabindex="-1" href="#install"><span class="icon icon-link"></span></a>install</h4>
 <pre class="language-js"><code class="language-js code-highlight"><span class="code-line">npx webpack init
@@ -71,28 +63,11 @@ module.exports  &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
 </span><span class="code-line">    <span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"webpack config prod.config.js"</span>
 </span><span class="code-line"><span class="token punctuation">}</span>
 </span></code></pre>
-<p><a href="https://www.webpackjs.com/configuration/configuration-languages/#typescript">若用ts配置webpack（<em>webpack.config.ts</em>）还需额外安装依赖，和做一些特殊配置</a></p>
-</div></div></div></div></div><div class="wrap h2body-exist"><div class="wrap-header h2wrap"><h2 id="基础配置"><a aria-hidden="true" tabindex="-1" href="#基础配置"><span class="icon icon-link"></span></a>基础配置</h2><div class="wrap-body">
-</div></div><div class="h2wrap-body"><div class="wrap h3body-not-exist"><div class="wrap-header h3wrap"><h3 id="导出配置项"><a aria-hidden="true" tabindex="-1" href="#导出配置项"><span class="icon icon-link"></span></a>导出配置项</h3><div class="wrap-body">
-<ul>
-<li>静态单个</li>
-</ul>
-<pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
-</span><span class="code-line">    <span class="token comment">// ....</span>
-</span><span class="code-line"><span class="token punctuation">}</span>
-</span></code></pre>
-<ul>
-<li>动态单个</li>
-</ul>
-<pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
-</span><span class="code-line">    <span class="token keyword control-flow">return</span> process<span class="token punctuation">.</span><span class="token property-access">env</span><span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">===</span> <span class="token string">'development'</span>
-</span><span class="code-line">        <span class="token operator">?</span> <span class="token punctuation">{</span> <span class="token doc-comment comment">/**dev config */</span> <span class="token punctuation">}</span> 
-</span><span class="code-line">        <span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token doc-comment comment">/**pro config */</span> <span class="token punctuation">}</span>
-</span><span class="code-line"><span class="token punctuation">}</span>
-</span></code></pre>
-<ul>
-<li>静/动态多个(3.1.0起支持) 对于多 targets（如 AMD 和 CommonJS）构建 library 时会非常有用;</li>
-</ul>
+<p class="wrap-text "><a href="https://www.webpackjs.com/configuration/configuration-languages/#typescript">若用ts配置webpack（<em>webpack.config.ts</em>）还需额外安装依赖，和做一些特殊配置</a></p>
+<!--rehype:className=wrap-text -->
+</div></div></div><div class="wrap h3body-not-exist col-span-2 row-span-3"><div class="wrap-header h3wrap"><h3 id="导出配置-静动态多个310起支持"><a aria-hidden="true" tabindex="-1" href="#导出配置-静动态多个310起支持"><span class="icon icon-link"></span></a>导出配置-静/动态多个(3.1.0起支持)</h3><div class="wrap-body">
+<!--rehype:wrap-class=col-span-2 row-span-3-->
+<p>对于多 targets（如 AMD 和 CommonJS）构建 library 时会非常有用;</p>
 <pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
 </span><span class="code-line">  <span class="token punctuation">{</span>
 </span><span class="code-line">    <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
@@ -114,8 +89,21 @@ module.exports  &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
 </span><span class="code-line">  <span class="token punctuation">}</span><span class="token punctuation">,</span>
 </span><span class="code-line"><span class="token punctuation">]</span><span class="token punctuation">;</span>
 </span></code></pre>
-</div></div></div><div class="wrap h3body-exist"><div class="wrap-header h3wrap"><h3 id="配置参数表"><a aria-hidden="true" tabindex="-1" href="#配置参数表"><span class="icon icon-link"></span></a>配置参数表</h3><div class="wrap-body">
-<h4 id="context"><a aria-hidden="true" tabindex="-1" href="#context"><span class="icon icon-link"></span></a>context</h4>
+</div></div></div><div class="wrap h3body-not-exist"><div class="wrap-header h3wrap"><h3 id="导出配置-静态单个"><a aria-hidden="true" tabindex="-1" href="#导出配置-静态单个"><span class="icon icon-link"></span></a>导出配置-静态单个</h3><div class="wrap-body">
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+</span><span class="code-line">    <span class="token comment">// ....</span>
+</span><span class="code-line"><span class="token punctuation">}</span>
+</span></code></pre>
+</div></div></div><div class="wrap h3body-not-exist"><div class="wrap-header h3wrap"><h3 id="导出配置-动态单个"><a aria-hidden="true" tabindex="-1" href="#导出配置-动态单个"><span class="icon icon-link"></span></a>导出配置-动态单个</h3><div class="wrap-body">
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+</span><span class="code-line">    <span class="token keyword control-flow">return</span> process<span class="token punctuation">.</span><span class="token property-access">env</span><span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">===</span> <span class="token string">'development'</span>
+</span><span class="code-line">        <span class="token operator">?</span> <span class="token punctuation">{</span> <span class="token doc-comment comment">/**dev config */</span> <span class="token punctuation">}</span> 
+</span><span class="code-line">        <span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token doc-comment comment">/**pro config */</span> <span class="token punctuation">}</span>
+</span><span class="code-line"><span class="token punctuation">}</span>
+</span></code></pre>
+</div></div></div></div></div><div class="wrap h2body-exist"><div class="wrap-header h2wrap"><h2 id="配置"><a aria-hidden="true" tabindex="-1" href="#配置"><span class="icon icon-link"></span></a>配置</h2><div class="wrap-body">
+</div></div><div class="h2wrap-body"><div class="wrap h3body-not-exist col-span-3"><div class="wrap-header h3wrap"><h3 id="配置项注解"><a aria-hidden="true" tabindex="-1" href="#配置项注解"><span class="icon icon-link"></span></a>配置项注解</h3><div class="wrap-body">
+<!--rehype:wrap-class=col-span-3-->
 
 
 
@@ -136,8 +124,6 @@ module.exports  &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
 
 
 
-<table><thead><tr><th>param</th><th>default</th><th>description</th></tr></thead><tbody><tr><td>mode</td><td></td><td>模式</td></tr><tr><td>context</td><td><code>path.resolve(cwd())</code></td><td>根目录</td></tr></tbody></table>
-<h4 id="output"><a aria-hidden="true" tabindex="-1" href="#output"><span class="icon icon-link"></span></a>output</h4>
 
 
 
@@ -151,7 +137,69 @@ module.exports  &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
 
 
 
-<table><thead><tr><th>param</th><th>description</th></tr></thead><tbody><tr><td></td><td></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>name</th><th>default value</th><th>interface</th><th>description</th></tr></thead><tbody><tr><td>名字</td><td>默认值</td><td>类型</td><td>描述</td></tr><tr><td>mode</td><td><code>none</code></td><td><code>'production'|'development'</code></td><td>模式</td></tr><tr><td>context</td><td><code>path.resolve(process.cwd())</code></td><td><code>string</code></td><td>项目根目录</td></tr><tr><td><a href="https://www.webpackjs.com/configuration/target/#target">target</a></td><td><code>browserslist || web</code></td><td><code>'node'|'web'|'commonjs'...</code></td><td>构建目标,告知webpack打包后的代码是用于在上面环境运行</td></tr><tr><td><a href="https://www.webpackjs.com/configuration/entry-context/#entry">entry</a></td><td></td><td><code>function|object</code></td><td>入口</td></tr><tr><td>entry.name</td><td></td><td><code>string|object</code></td><td>入口文件(<code>.js|.ts</code>)的名字</td></tr><tr><td><a href="https://www.webpackjs.com/configuration/output/">output</a></td><td></td><td></td><td>出口</td></tr><tr><td>output.assetModuleFilename</td><td></td><td></td><td><a href="https://www.webpackjs.com/guides/asset-modules/">*</a></td></tr><tr><td>output.asyncChunks</td><td><code>true</code></td><td><code>boolean</code></td><td>创建按需加载的异步chunk</td></tr><tr><td>output.charset</td><td><code>true</code></td><td><code>boolean</code></td><td>为html的<code>&#x3C;script></code>标签添加 charset="utf-8" 标识</td></tr><tr><td>output.chunkFilename</td><td><code>[id].js</code></td><td><code>string|(pathData, assetInfo)=>string</code></td><td>chunk文件的名称</td></tr><tr><td>output.chunkFormat</td><td></td><td></td><td>和target一样的功能,有target时不用配置</td></tr><tr><td>output.chunkLoadingGlobal</td><td></td><td>自定义<code>string</code></td><td>用于指定当webpack为异步加载的chunks生成JSONP函数时所使用的全局变量名称,避免重名</td></tr><tr><td>output.chunkLoadTimeout</td><td>120000</td><td><code>number</code></td><td>打包后的代码在运行的平台上加载某chunk超时；单位(<code>ms</code>)</td></tr></tbody></table>
 </div></div></div></div></div></div></div><script src="..\/data.js?v=0.1.16" defer></script><script src="..\/js/fuse.min.js?v=0.1.16" defer></script><script src="..\/js/main.js?v=0.1.16" defer></script><div id="mysearch"><div class="mysearch-box"><div class="mysearch-input"><div><svg xmlns="http://www.w3.org/2000/svg" height="1em" width="1em" viewBox="0 0 18 18">
   <path fill="currentColor" d="M17.71,16.29 L14.31,12.9 C15.4069846,11.5024547 16.0022094,9.77665502 16,8 C16,3.581722 12.418278,0 8,0 C3.581722,0 0,3.581722 0,8 C0,12.418278 3.581722,16 8,16 C9.77665502,16.0022094 11.5024547,15.4069846 12.9,14.31 L16.29,17.71 C16.4777666,17.8993127 16.7333625,18.0057983 17,18.0057983 C17.2666375,18.0057983 17.5222334,17.8993127 17.71,17.71 C17.8993127,17.5222334 18.0057983,17.2666375 18.0057983,17 C18.0057983,16.7333625 17.8993127,16.4777666 17.71,16.29 Z M2,8 C2,4.6862915 4.6862915,2 8,2 C11.3137085,2 14,4.6862915 14,8 C14,11.3137085 11.3137085,14 8,14 C4.6862915,14 2,11.3137085 2,8 Z"></path>
 </svg><input id="mysearch-input" type="search" placeholder="请输入搜索内容" autocomplete="off"><div class="mysearch-clear"></div></div><button id="mysearch-close" type="button">取消</button></div><div class="mysearch-result"><div id="mysearch-menu"></div><div id="mysearch-content"></div></div></div></div></body>
