@@ -71,7 +71,7 @@ module.exports = () => {
 
 ## 配置
 
-### 配置项注解
+### root
 <!--rehype:wrap-class=col-span-3-->
 
 |name|default value|interface|description|
@@ -80,14 +80,32 @@ module.exports = () => {
 |mode|`none`|`'production'\|'development'`|模式|
 |context|`path.resolve(process.cwd())`|`string`|项目根目录|
 |[target](https://www.webpackjs.com/configuration/target/#target)|`browserslist \|\| web`|`'node'\|'web'\|'commonjs'...`|构建目标,告知webpack打包后的代码是用于在上面环境运行|
-|[entry](https://www.webpackjs.com/configuration/entry-context/#entry)||`function\|object`|入口|
-|entry.name||`string\|object`|入口文件(`.js\|.ts`)的名字|
-|[output](https://www.webpackjs.com/configuration/output/)|||出口|
-|output.assetModuleFilename|||[*](https://www.webpackjs.com/guides/asset-modules/)|
-|output.asyncChunks|`true`|`boolean`|创建按需加载的异步chunk|
+
+### [entry](https://www.webpackjs.com/configuration/entry-context/#entry)<!--rehype:style=color: white;-->
+<!--rehype:wrap-class=col-span-2-->
+
+|name|default value|interface|description|
+|---|---|---|---|
+|名字|默认值|类型|描述|
+|name||`string\|object`|入口文件(`.js\|.ts`)的名字|
+
+### [output](https://www.webpackjs.com/configuration/output/)<!--rehype:style=color: white;-->
+<!--rehype:wrap-class=col-span-3-->
+
+|name|default value|interface|description|
+|---|---|---|---|
+|名字|默认值|类型|描述|
+|assetModuleFilename|||[*](https://www.webpackjs.com/guides/asset-modules/)|
+|asyncChunks|`true`|`boolean`|创建按需加载的异步chunk|
 |output.charset|`true`|`boolean`|为html的`<script>`标签添加 charset="utf-8" 标识|
 |output.chunkFilename|`[id].js`|`string\|(pathData, assetInfo)=>string`|chunk文件的名称|
 |output.chunkFormat|||和target一样的功能,有target时不用配置|
 |output.chunkLoadingGlobal||自定义`string`|用于指定当webpack为异步加载的chunks生成JSONP函数时所使用的全局变量名称,避免重名|
 |output.chunkLoadTimeout|120000|`number`|打包后的代码在运行的平台上加载某chunk超时；单位(`ms`)|
 
+### [resolve](https://www.webpackjs.com/configuration/output/)<!--rehype:style=color: white;-->
+<!--rehype:wrap-class=col-span-3-->
+
+|name|default value|interface|description|
+|---|---|---|---|
+|名字|默认值|类型|描述|
