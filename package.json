@@ -20,8 +20,5 @@
     "learn"
   ],
   "author": "https://github.com/yacshy",
-  "license": "ISC",
-  "dependencies": {
-    "minimist": "^1.2.8"
-  }
+  "license": "ISC"
 }
