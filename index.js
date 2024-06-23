@@ -3,7 +3,7 @@ import {execSync} from 'child_process'
 
 const successLog = (str) => `\x1b[42m${str} !!\x1b[0m`
 
-(async () => {
+const run = async () => {
     const argvs = minimist(process.argv.slice(2), {
         default: {
             m: 'modified some files',
@@ -12,10 +12,9 @@ const successLog = (str) => `\x1b[42m${str} !!\x1b[0m`
     const gitCommitMessage = argvs['m']
 
     try {
-        await execSync('quickref-cli build --i refs --o docs', {
+        await execSync('quickref-cli -b', {
             stdio: 'inherit',
         })
-
 
         const addStr = 'git add .'
         await execSync(addStr, {stdio: 'inherit'})
@@ -32,4 +31,6 @@ const successLog = (str) => `\x1b[42m${str} !!\x1b[0m`
         console.error(err)
         throw err
     }
-})()
+}
+
+run()

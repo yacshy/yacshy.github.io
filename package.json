@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "quickref-cli -i refs -o docs",
-    "watch": "quickref-cli -i refs -o docs --watch",
-    "pub": "node ./index.js"
+    "dev": "quickref-cli -w",
+    "pub": "node ./index.js",
+    "demo": "set NODE_ENV=production && node ./demo/index"
   },
   "keywords": [
     "blog",

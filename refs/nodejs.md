@@ -1,19 +1,16 @@
-# this is a title of nodejs.md
-
-## get start
-
-### this is a thrid title
-
-this is a paragraph
-
-```
-const a = 'this is a code '
-```
-
-#### this is a forth title
-
-### this is another third title
+# nodejs
 
 this is a description
 
-#### this is another forth title
+## 核心模块
+
+### 文件系统
+
+```ts
+import fs from 'fs'
+```
+
+### 加密系统
+```ts
+import crypto from 'crypto'
+```
