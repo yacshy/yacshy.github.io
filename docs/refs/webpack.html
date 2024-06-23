@@ -24,7 +24,8 @@ npx webpack init
 }
 ```
 
-[若用ts配置webpack（*webpack.config.ts*）还需额外安装依赖，和做一些特殊配置](https://www.webpackjs.com/configuration/configuration-languages/#typescript)
+[若用 ts 配置 webpack（_webpack.config.ts_）还需额外安装依赖，和做一些特殊配置](https://www.webpackjs.com/configuration/configuration-languages/#typescript)
+
 &#x3C;!--rehype:className &#x26;  webpack cheatsheet &#x26;  Quick Reference</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta description="# webpack
@@ -53,7 +54,7 @@ npx webpack init
 <p><a href="https://www.webpackjs.com/concepts/">中文官网地址</a></p>
 </div></header><div class="menu-tocs"><div class="menu-btn"><svg aria-hidden="true" fill="currentColor" height="1em" width="1em" viewBox="0 0 16 16" version="1.1" data-view-component="true">
   <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
-</svg></div><div class="menu-modal"><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#前置">前置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#启动配置">启动配置</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#install">install</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#packagejson">package.json</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-静动态多个310起支持">导出配置-静/动态多个(3.1.0起支持)</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-静态单个">导出配置-静态单个</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-动态单个">导出配置-动态单个</a><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#配置">配置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#root">root</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#entry">entry</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#output">output</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#resolve">resolve</a></div></div><div class="h1wrap-body"><div class="wrap h2body-exist"><div class="wrap-header h2wrap"><h2 id="前置"><a aria-hidden="true" tabindex="-1" href="#前置"><span class="icon icon-link"></span></a>前置</h2><div class="wrap-body">
+</svg></div><div class="menu-modal"><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#前置">前置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#启动配置">启动配置</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#install">install</a><a aria-hidden="true" class="leve4 tocs-link" data-num="4" href="#packagejson">package.json</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-静态多个310-起支持">导出配置-静态多个(3.1.0 起支持)</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-动态多个310-起支持">导出配置-动态多个(3.1.0 起支持)</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-静态单个">导出配置-静态单个</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#导出配置-动态单个">导出配置-动态单个</a><a aria-hidden="true" class="leve2 tocs-link" data-num="2" href="#配置">配置</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#root">root</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#entry">entry</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#output">output</a><a aria-hidden="true" class="leve3 tocs-link" data-num="3" href="#resolve">resolve</a></div></div><div class="h1wrap-body"><div class="wrap h2body-exist"><div class="wrap-header h2wrap"><h2 id="前置"><a aria-hidden="true" tabindex="-1" href="#前置"><span class="icon icon-link"></span></a>前置</h2><div class="wrap-body">
 </div></div><div class="h2wrap-body"><div class="wrap h3body-exist"><div class="wrap-header h3wrap"><h3 id="启动配置"><a aria-hidden="true" tabindex="-1" href="#启动配置"><span class="icon icon-link"></span></a>启动配置</h3><div class="wrap-body">
 <h4 id="install"><a aria-hidden="true" tabindex="-1" href="#install"><span class="icon icon-link"></span></a>install</h4>
 <pre class="language-js"><code class="language-js code-highlight"><span class="code-line">npx webpack init
@@ -63,31 +64,57 @@ npx webpack init
 </span><span class="code-line">    <span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"webpack config prod.config.js"</span>
 </span><span class="code-line"><span class="token punctuation">}</span>
 </span></code></pre>
-<p class="wrap-text "><a href="https://www.webpackjs.com/configuration/configuration-languages/#typescript">若用ts配置webpack（<em>webpack.config.ts</em>）还需额外安装依赖，和做一些特殊配置</a></p>
+<p class="wrap-text "><a href="https://www.webpackjs.com/configuration/configuration-languages/#typescript">若用 ts 配置 webpack（<em>webpack.config.ts</em>）还需额外安装依赖，和做一些特殊配置</a></p>
 <!--rehype:className=wrap-text -->
-</div></div></div><div class="wrap h3body-not-exist col-span-2 row-span-3"><div class="wrap-header h3wrap"><h3 id="导出配置-静动态多个310起支持"><a aria-hidden="true" tabindex="-1" href="#导出配置-静动态多个310起支持"><span class="icon icon-link"></span></a>导出配置-静/动态多个(3.1.0起支持)</h3><div class="wrap-body">
-<!--rehype:wrap-class=col-span-2 row-span-3-->
+</div></div></div><div class="wrap h3body-not-exist row-span-3"><div class="wrap-header h3wrap"><h3 id="导出配置-静态多个310-起支持"><a aria-hidden="true" tabindex="-1" href="#导出配置-静态多个310-起支持"><span class="icon icon-link"></span></a>导出配置-静态多个(3.1.0 起支持)</h3><div class="wrap-body">
+<!--rehype:wrap-class=row-span-3-->
 <p>对于多 targets（如 AMD 和 CommonJS）构建 library 时会非常有用;</p>
 <pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
-</span><span class="code-line">  <span class="token punctuation">{</span>
-</span><span class="code-line">    <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-</span><span class="code-line">      <span class="token literal-property property">filename</span><span class="token operator">:</span> <span class="token string">'./dist-amd.js'</span><span class="token punctuation">,</span>
-</span><span class="code-line">      <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">'amd'</span><span class="token punctuation">,</span>
+</span><span class="code-line">    <span class="token punctuation">{</span>
+</span><span class="code-line">        <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+</span><span class="code-line">            <span class="token literal-property property">filename</span><span class="token operator">:</span> <span class="token string">'./dist-amd.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">'amd'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'amd'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">'./app.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'production'</span><span class="token punctuation">,</span>
 </span><span class="code-line">    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-</span><span class="code-line">    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'amd'</span><span class="token punctuation">,</span>
-</span><span class="code-line">    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">'./app.js'</span><span class="token punctuation">,</span>
-</span><span class="code-line">    <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'production'</span><span class="token punctuation">,</span>
-</span><span class="code-line">  <span class="token punctuation">}</span><span class="token punctuation">,</span>
-</span><span class="code-line">  <span class="token punctuation">{</span>
-</span><span class="code-line">    <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-</span><span class="code-line">      <span class="token literal-property property">filename</span><span class="token operator">:</span> <span class="token string">'./dist-commonjs.js'</span><span class="token punctuation">,</span>
-</span><span class="code-line">      <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">'commonjs'</span><span class="token punctuation">,</span>
+</span><span class="code-line">    <span class="token punctuation">{</span>
+</span><span class="code-line">        <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+</span><span class="code-line">            <span class="token literal-property property">filename</span><span class="token operator">:</span> <span class="token string">'./dist-commonjs.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">'commonjs'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'commonjs'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">'./app.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'production'</span><span class="token punctuation">,</span>
 </span><span class="code-line">    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-</span><span class="code-line">    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'commonjs'</span><span class="token punctuation">,</span>
-</span><span class="code-line">    <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">'./app.js'</span><span class="token punctuation">,</span>
-</span><span class="code-line">    <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'production'</span><span class="token punctuation">,</span>
-</span><span class="code-line">  <span class="token punctuation">}</span><span class="token punctuation">,</span>
-</span><span class="code-line"><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</span><span class="code-line"><span class="token punctuation">]</span>
+</span></code></pre>
+</div></div></div><div class="wrap h3body-not-exist row-span-3"><div class="wrap-header h3wrap"><h3 id="导出配置-动态多个310-起支持"><a aria-hidden="true" tabindex="-1" href="#导出配置-动态多个310-起支持"><span class="icon icon-link"></span></a>导出配置-动态多个(3.1.0 起支持)</h3><div class="wrap-body">
+<!--rehype:wrap-class=row-span-3-->
+<p>对于多 targets（如 AMD 和 CommonJS）构建 library 时会非常有用;</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+</span><span class="code-line">    <span class="token keyword control-flow">return</span> <span class="token punctuation">[</span>
+</span><span class="code-line">        <span class="token punctuation">{</span>
+</span><span class="code-line">            <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+</span><span class="code-line">                <span class="token literal-property property">filename</span><span class="token operator">:</span> <span class="token string">'./dist-amd.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">                <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">'amd'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'amd'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">'./app.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'production'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token punctuation">{</span>
+</span><span class="code-line">            <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+</span><span class="code-line">                <span class="token literal-property property">filename</span><span class="token operator">:</span> <span class="token string">'./dist-commonjs.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">                <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">'commonjs'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'commonjs'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">entry</span><span class="token operator">:</span> <span class="token string">'./app.js'</span><span class="token punctuation">,</span>
+</span><span class="code-line">            <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'production'</span><span class="token punctuation">,</span>
+</span><span class="code-line">        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</span><span class="code-line">    <span class="token punctuation">]</span>
+</span><span class="code-line"><span class="token punctuation">}</span>
 </span></code></pre>
 </div></div></div><div class="wrap h3body-not-exist"><div class="wrap-header h3wrap"><h3 id="导出配置-静态单个"><a aria-hidden="true" tabindex="-1" href="#导出配置-静态单个"><span class="icon icon-link"></span></a>导出配置-静态单个</h3><div class="wrap-body">
 <pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
@@ -97,8 +124,12 @@ npx webpack init
 </div></div></div><div class="wrap h3body-not-exist"><div class="wrap-header h3wrap"><h3 id="导出配置-动态单个"><a aria-hidden="true" tabindex="-1" href="#导出配置-动态单个"><span class="icon icon-link"></span></a>导出配置-动态单个</h3><div class="wrap-body">
 <pre class="language-js"><code class="language-js code-highlight"><span class="code-line">module<span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
 </span><span class="code-line">    <span class="token keyword control-flow">return</span> process<span class="token punctuation">.</span><span class="token property-access">env</span><span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">===</span> <span class="token string">'development'</span>
-</span><span class="code-line">        <span class="token operator">?</span> <span class="token punctuation">{</span> <span class="token doc-comment comment">/**dev config */</span> <span class="token punctuation">}</span> 
-</span><span class="code-line">        <span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token doc-comment comment">/**pro config */</span> <span class="token punctuation">}</span>
+</span><span class="code-line">        <span class="token operator">?</span> <span class="token punctuation">{</span>
+</span><span class="code-line">              <span class="token doc-comment comment">/**dev config */</span>
+</span><span class="code-line">          <span class="token punctuation">}</span>
+</span><span class="code-line">        <span class="token operator">:</span> <span class="token punctuation">{</span>
+</span><span class="code-line">              <span class="token doc-comment comment">/**pro config */</span>
+</span><span class="code-line">          <span class="token punctuation">}</span>
 </span><span class="code-line"><span class="token punctuation">}</span>
 </span></code></pre>
 </div></div></div></div></div><div class="wrap h2body-exist"><div class="wrap-header h2wrap"><h2 id="配置"><a aria-hidden="true" tabindex="-1" href="#配置"><span class="icon icon-link"></span></a>配置</h2><div class="wrap-body">
@@ -139,7 +170,7 @@ npx webpack init
 
 
 
-<table><thead><tr><th>name</th><th>default value</th><th>interface</th><th>description</th></tr></thead><tbody><tr><td>名字</td><td>默认值</td><td>类型</td><td>描述</td></tr><tr><td>mode</td><td><code>none</code></td><td><code>'production'|'development'</code></td><td>模式</td></tr><tr><td>context</td><td><code>path.resolve(process.cwd())</code></td><td><code>string</code></td><td>项目根目录</td></tr><tr><td><a href="https://www.webpackjs.com/configuration/target/#target">target</a></td><td><code>browserslist || web</code></td><td><code>'node'|'web'|'commonjs'...</code></td><td>构建目标,告知webpack打包后的代码是用于在上面环境运行</td></tr></tbody></table>
+<table><thead><tr><th>name</th><th>default value</th><th>interface</th><th>description</th></tr></thead><tbody><tr><td>名字</td><td>默认值</td><td>类型</td><td>描述</td></tr><tr><td>mode</td><td><code>none</code></td><td><code>'production'|'development'</code></td><td>模式</td></tr><tr><td>context</td><td><code>path.resolve(process.cwd())</code></td><td><code>string</code></td><td>项目根目录</td></tr><tr><td><a href="https://www.webpackjs.com/configuration/target/#target">target</a></td><td><code>browserslist || web</code></td><td><code>'node'|'web'|'commonjs'...</code></td><td>构建目标,告知 webpack 打包后的代码是用于在上面环境运行</td></tr></tbody></table>
 </div></div></div><div class="wrap h3body-not-exist col-span-2"><div class="wrap-header h3wrap"><h3 id="entry"><a aria-hidden="true" tabindex="-1" href="#entry"><span class="icon icon-link"></span></a><a href="https://www.webpackjs.com/configuration/entry-context/#entry" style="color: white;">entry</a><!--rehype:style=color: white;--></h3><div class="wrap-body">
 <!--rehype:wrap-class=col-span-2-->
 
@@ -227,7 +258,7 @@ npx webpack init
 
 
 
-<table><thead><tr><th>name</th><th>default value</th><th>interface</th><th>description</th></tr></thead><tbody><tr><td>名字</td><td>默认值</td><td>类型</td><td>描述</td></tr><tr><td>assetModuleFilename</td><td></td><td></td><td><a href="https://www.webpackjs.com/guides/asset-modules/">*</a></td></tr><tr><td>asyncChunks</td><td><code>true</code></td><td><code>boolean</code></td><td>创建按需加载的异步chunk</td></tr><tr><td>output.charset</td><td><code>true</code></td><td><code>boolean</code></td><td>为html的<code>&#x3C;script></code>标签添加 charset="utf-8" 标识</td></tr><tr><td>output.chunkFilename</td><td><code>[id].js</code></td><td><code>string|(pathData, assetInfo)=>string</code></td><td>chunk文件的名称</td></tr><tr><td>output.chunkFormat</td><td></td><td></td><td>和target一样的功能,有target时不用配置</td></tr><tr><td>output.chunkLoadingGlobal</td><td></td><td>自定义<code>string</code></td><td>用于指定当webpack为异步加载的chunks生成JSONP函数时所使用的全局变量名称,避免重名</td></tr><tr><td>output.chunkLoadTimeout</td><td>120000</td><td><code>number</code></td><td>打包后的代码在运行的平台上加载某chunk超时；单位(<code>ms</code>)</td></tr></tbody></table>
+<table><thead><tr><th>name</th><th>default value</th><th>interface</th><th>description</th></tr></thead><tbody><tr><td>名字</td><td>默认值</td><td>类型</td><td>描述</td></tr><tr><td>assetModuleFilename</td><td></td><td></td><td><a href="https://www.webpackjs.com/guides/asset-modules/">*</a></td></tr><tr><td>asyncChunks</td><td><code>true</code></td><td><code>boolean</code></td><td>创建按需加载的异步 chunk</td></tr><tr><td>output.charset</td><td><code>true</code></td><td><code>boolean</code></td><td>为 html 的<code>&#x3C;script></code>标签添加 charset="utf-8" 标识</td></tr><tr><td>output.chunkFilename</td><td><code>[id].js</code></td><td><code>string|(pathData, assetInfo)=>string</code></td><td>chunk 文件的名称</td></tr><tr><td>output.chunkFormat</td><td></td><td></td><td>和 target 一样的功能,有 target 时不用配置</td></tr><tr><td>output.chunkLoadingGlobal</td><td></td><td>自定义<code>string</code></td><td>用于指定当 webpack 为异步加载的 chunks 生成 JSONP 函数时所使用的全局变量名称,避免重名</td></tr><tr><td>output.chunkLoadTimeout</td><td>120000</td><td><code>number</code></td><td>打包后的代码在运行的平台上加载某 chunk 超时；单位(<code>ms</code>)</td></tr></tbody></table>
 </div></div></div><div class="wrap h3body-not-exist col-span-3"><div class="wrap-header h3wrap"><h3 id="resolve"><a aria-hidden="true" tabindex="-1" href="#resolve"><span class="icon icon-link"></span></a><a href="https://www.webpackjs.com/configuration/output/" style="color: white;">resolve</a><!--rehype:style=color: white;--></h3><div class="wrap-body">
 <!--rehype:wrap-class=col-span-3-->
 
