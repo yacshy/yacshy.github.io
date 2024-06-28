@@ -17,6 +17,7 @@
   },
   "inputDir": "./refs",
   "outputDir": "./docs",
+  "attachment": "./attachments",
   "server": {
     "port": 8080,
     "root": "./docs",

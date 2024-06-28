@@ -25,8 +25,8 @@
 
 ### 创建用于移动的Actor
 
-- <img src="https://pic.rmb.bdstatic.com/bjh/240530/dump/ae726bcafce413ac3ecaf5b48c79e58f.gif" width="100%" height="auto" /><br /><div>helllo</div>
-- 2 ![alt text](image.png)
+- shiashia
+- 2 ![alt text](./image.png)
 - 3
 - 4
 <!--rehype:className=style-timeline-->
