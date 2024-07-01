@@ -27,6 +27,7 @@
 
 ## 快速工具
 
+[中文字体](http://xiazaiziti.com/category/zhongwenziti)<!--rehype:style=background: rgb(0 174 227);-->
 [github520](https://raw.hellogithub.com/hosts)<!--rehype:style=background: rgb(119 168 196);-->
 [文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);-->
 [iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(111 121 159);-->
