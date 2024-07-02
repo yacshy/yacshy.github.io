@@ -13,6 +13,7 @@
 
 ## 快速文档
 
+[fastapi](./refs/fastapi.md)<!--rehype:style=background: rgb(0 148 133);-->
 [nodejs](./refs/nodejs.md)<!--rehype:style=background: rgb(0 153 0);-->
 [nestjs](./refs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);-->
 [vue 3](./refs/vue.md)<!--rehype:style=background: rgb(64 184 131);-->
