@@ -29,14 +29,32 @@
 
 ## 快速工具
 
-[中文字体](http://xiazaiziti.com/category/zhongwenziti)<!--rehype:style=background: rgb(0 174 227);-->
-[unocss](https://unocss.dev/interactive/)<!--rehype:style=background: rgb(77 77 77);-->
+### 其他
+<!--rehype:wrap-class=col-span-3-->
 [github520](https://raw.hellogithub.com/hosts)<!--rehype:style=background: rgb(119 168 196);-->
 [文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);-->
-[iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(111 121 159);-->
-[颜色吸管](https://photokit.com/colors/eyedropper/?lang=zh)<!--rehype:style=background: rgb(55 22 127);-->
-[颜色计算器](https://photokit.com/colors/color-calculator/?lang=zh)<!--rehype:style=background: rgb(0 123 255);-->
 [有道翻译](https://fanyi.youdao.com)<!--rehype:style=background: rgb(252 1 26);-->
+<!--rehype:class=home-card-->
+
+### 字体
+<!--rehype:wrap-class=col-span-3-->
+[中文字体](http://xiazaiziti.com/category/zhongwenziti)<!--rehype:style=background: rgb(0 174 227);-->
+<!--rehype:class=home-card-->
+
+### 颜色
+<!--rehype:wrap-class=col-span-3-->
 [配色网站](https://flatuicolors.com/)<!--rehype:style=background:rgb(37 204 247);-->
 [中国色](https://www.zhongguose.com/)<!--rehype:style=background:rgb(192 72 81);-->
+[颜色吸管](https://photokit.com/colors/eyedropper/?lang=zh)<!--rehype:style=background: rgb(55 22 127);-->
+[颜色计算器](https://photokit.com/colors/color-calculator/?lang=zh)<!--rehype:style=background: rgb(0 123 255);-->
+<!--rehype:class=home-card-->
+
+### 图标
+<!--rehype:wrap-class=col-span-3-->
+[iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(111 121 159);-->
+<!--rehype:class=home-card-->
+
+### 样式
+<!--rehype:wrap-class=col-span-3-->
+[unocss](https://unocss.dev/interactive/)<!--rehype:style=background: rgb(77 77 77);-->
 <!--rehype:class=home-card-->
