@@ -54,7 +54,11 @@
 [iconfont](https://www.iconfont.cn/)<!--rehype:style=background: rgb(111 121 159);-->
 <!--rehype:class=home-card-->
 
-### 样式
+### 动画
 <!--rehype:wrap-class=col-span-3-->
 [unocss](https://unocss.dev/interactive/)<!--rehype:style=background: rgb(77 77 77);-->
+[Rough Notation](https://roughnotation.com/)<!--rehype:style=background: rgb(77 77 77);-->
+[maxwellito](https://maxwellito.github.io/vivus/)<!--rehype:style=background: rgb(77 77 77);-->
+[gsap](https://gsap.com/)<!--rehype:style=background: rgb(77 77 77);-->
+[barba](https://barba.js.org/)<!--rehype:style=background: rgb(77 77 77);-->
 <!--rehype:class=home-card-->
