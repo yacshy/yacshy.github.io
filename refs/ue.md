@@ -25,10 +25,10 @@
 
 ### 创建用于移动的Actor
 
-- shiashia
-- 2 ![alt text](./image.png)
-- 3
-- 4
+* shiashia
+* 2 ![alt text](./image.png)
+* 3
+* 4
 <!--rehype:className=style-timeline-->
 
 ### 创建 AI Controller
