@@ -8,7 +8,8 @@
 
 #### 删
 
-* destroy Actor
+- destroy Actor
+<!--rehype:className=style-arrow-->
 
 #### 改
 
@@ -16,10 +17,6 @@
 
 * Class Of Actor
 * Actor has Tag
-
-### http
-
-[虚幻 UE5 发送 get、post 请求、读取 json 文件](https://tinygeeker.blog.csdn.net/article/details/134162447?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-134162447-blog-139749859.235%5Ev43%5Epc_blog_bottom_relevance_base7&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-134162447-blog-139749859.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1)
 
 ## AI 行为树
 
@@ -36,3 +33,17 @@
 ### 创建行为树
 
 ### 创建黑板
+
+## 插件
+
+### 发送http请求
+<!--rehype:wrap-class=col-span-3-->
+
+插件名称VaRest，需要在商城中安装一遍，再在UE编辑器-插件中再安装一遍，然后才能使用
+
+![使用蓝图](../attachments/ue/varest-install.png)<!--rehype:style=width: 50%-->
+![使用蓝图](../attachments/ue/varest-bp.png)<!--rehype:style=width: 50%-->
+<!--rehype:style=display: flex; gap: 10px;-->
+
+### 像素流送与交互
+<!--rehype:wrap-class=col-span-3-->
