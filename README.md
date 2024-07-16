@@ -25,6 +25,7 @@
 [midwayjs](./refs/midwayjs.md)<!--rehype:style=background: rgb(146 185 255);-->
 [UE](./refs/ue.md)<!--rehype:style=background: rgb(38 187 255);-->
 [qiankun](./refs/qiankun.md)<!--rehype:style=background: rgb(229 165 64);-->
+[history](./refs/history.md)<!--rehype:style=background: rgb(255 208 91);-->
 <!--rehype:class=home-card-->
 
 ## 快速工具
