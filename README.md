@@ -32,6 +32,7 @@
 
 ### 其他
 <!--rehype:wrap-class=col-span-3-->
+[橙篇](https://cp.baidu.com/chat?type=compose)<!--rehype:style=background: rgb(119 168 196);-->
 [天梯图](https://raw.hellogithub.com/hosts)<!--rehype:style=background: rgb(119 168 196);-->
 [github520](https://raw.hellogithub.com/hosts)<!--rehype:style=background: rgb(119 168 196);-->
 [文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);-->
