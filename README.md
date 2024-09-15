@@ -25,12 +25,15 @@
 [midwayjs](./refs/midwayjs.md)<!--rehype:style=background: rgb(146 185 255);-->
 [UE](./refs/ue.md)<!--rehype:style=background: rgb(38 187 255);-->
 [qiankun](./refs/qiankun.md)<!--rehype:style=background: rgb(229 165 64);-->
+[history](./refs/history.md)<!--rehype:style=background: rgb(255 208 91);-->
 <!--rehype:class=home-card-->
 
 ## 快速工具
 
 ### 其他
 <!--rehype:wrap-class=col-span-3-->
+[橙篇](https://cp.baidu.com/chat?type=compose)<!--rehype:style=background: rgb(119 168 196);-->
+[天梯图](https://raw.hellogithub.com/hosts)<!--rehype:style=background: rgb(119 168 196);-->
 [github520](https://raw.hellogithub.com/hosts)<!--rehype:style=background: rgb(119 168 196);-->
 [文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);-->
 [有道翻译](https://fanyi.youdao.com)<!--rehype:style=background: rgb(252 1 26);-->
