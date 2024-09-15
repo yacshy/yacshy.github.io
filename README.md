@@ -35,6 +35,7 @@
 [文心一言](https://yiyan.baidu.com/)<!--rehype:style=background: rgb(119 168 196);-->
 [有道翻译](https://fanyi.youdao.com)<!--rehype:style=background: rgb(252 1 26);-->
 [refrence排版教程](./refs/quickreference.md)<!--rehype:style=background: rgb(34 142 108);-->
+[nvm镜像源](https://nvm.p6p.net/use/mirror.html)<!--rehype:style=background: rgb(34 142 108);-->
 <!--rehype:class=home-card-->
 
 ### 字体
