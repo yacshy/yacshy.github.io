@@ -41,6 +41,9 @@
 [别人的路线图](https://www.kancloud.cn/surahe/front-end-notebook/576215#FPS_14)<!--rehype:style=background: rgb(34 142 108);-->
 [nvm镜像源](https://nvm.p6p.net/use/mirror.html)<!--rehype:style=background: rgb(34 142 108);-->
 [号码查地址](http://gps.roola.cn/?fuckkong)<!--rehype:style=background: rgb(34 142 108);-->
+[你注册过哪些网站](https://www.reg007.com/)<!--rehype:style=background: rgb(34 142 108);-->
+[你注册过哪些网站](https://www.reg007.com/)<!--rehype:style=background: rgb(34 142 108);-->
+[infoQuery](https://0x1oo.github.io/info-query/#/)<!--rehype:style=background: rgb(34 142 108);-->
 <!--rehype:class=home-card-->
 
 ### 字体
